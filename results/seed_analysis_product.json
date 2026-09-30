@@ -1,0 +1,91 @@
+{
+  "metric": "product_unique_HR@10",
+  "rows": 4533,
+  "rows_with_ambiguous_target_sid": {
+    "prebuilt": 56,
+    "kmeans": 0,
+    "either": 56
+  },
+  "unambiguous_in_both_rows": 4477,
+  "per_seed": [
+    {
+      "seed": "42",
+      "prebuilt": 0.118023,
+      "kmeans": 0.093977,
+      "diff": -0.024046,
+      "ci95": [
+        -0.032208,
+        -0.015884
+      ],
+      "significant": true,
+      "unambiguous_subset": {
+        "rows": 4477,
+        "prebuilt": 0.1195,
+        "kmeans": 0.093589,
+        "diff": -0.02591
+      }
+    },
+    {
+      "seed": "43",
+      "prebuilt": 0.114053,
+      "kmeans": 0.101919,
+      "diff": -0.012133,
+      "ci95": [
+        -0.019634,
+        -0.00375
+      ],
+      "significant": true,
+      "unambiguous_subset": {
+        "rows": 4477,
+        "prebuilt": 0.115479,
+        "kmeans": 0.09962,
+        "diff": -0.015859
+      }
+    },
+    {
+      "seed": "44",
+      "prebuilt": 0.098169,
+      "kmeans": 0.106773,
+      "diff": 0.008604,
+      "ci95": [
+        0.000441,
+        0.016545
+      ],
+      "significant": true,
+      "unambiguous_subset": {
+        "rows": 4477,
+        "prebuilt": 0.099397,
+        "kmeans": 0.105651,
+        "diff": 0.006254
+      }
+    }
+  ],
+  "seed_level": {
+    "seeds": 3,
+    "mean_diff": -0.009192,
+    "sd_diff": 0.016522,
+    "min_diff": -0.024046,
+    "max_diff": 0.008604,
+    "all_seeds_same_sign": false,
+    "two_stage_ci95": [
+      -0.023899,
+      0.007059
+    ],
+    "two_stage_significant": false,
+    "t_vs_zero": -0.964,
+    "df": 2,
+    "p_two_sided": 0.4369,
+    "seeds_favouring_prebuilt": 2,
+    "seeds_favouring_kmeans": 1
+  },
+  "seed_level_unambiguous_subset": {
+    "rows": 4477,
+    "mean_diff": -0.011838,
+    "two_stage_ci95": [
+      -0.025836,
+      0.006254
+    ],
+    "two_stage_significant": false,
+    "p_two_sided": 0.3389
+  }
+}

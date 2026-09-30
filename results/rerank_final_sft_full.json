@@ -1,0 +1,179 @@
+{
+  "label": "sft_full_final",
+  "config": {
+    "model": "results/rerank_model_e.json",
+    "features": [
+      "ppmi_sum",
+      "pop_log",
+      "in_history",
+      "prev_l1",
+      "l1_frac"
+    ],
+    "lambda": 1.0,
+    "rrf_k": 10,
+    "item_unique_HR": 0.101721,
+    "code_match_HR": 0.133716,
+    "product_unique_HR": 0.13173,
+    "augment": 0,
+    "selected_on": "Industrial_and_Scientific_5_2016-10-2018-11.csv",
+    "learned_only_item_unique_HR": 0.073257,
+    "baseline_item_unique_HR": 0.089585,
+    "baseline_code_match_HR": 0.122683,
+    "grid_size": 70
+  },
+  "augment": 0,
+  "candidate_pool": {
+    "rows_with_target_in_beam": 986,
+    "strict_reachable_ceiling": 0.16413,
+    "code_reachable_ceiling": 0.217516
+  },
+  "variants": {
+    "base": {
+      "label": "sft_full_final",
+      "variant": "base",
+      "rows": 4533,
+      "topk": 10,
+      "strict_reachable_ceiling": 0.16413,
+      "baseline": {
+        "code_match_HR": 0.121553,
+        "item_unique_HR": 0.07677,
+        "product_unique_HR": 0.118023,
+        "product_fraction_HR": 0.118023
+      },
+      "variant_metrics": {
+        "code_match_HR": 0.121553,
+        "item_unique_HR": 0.07677,
+        "product_unique_HR": 0.118023,
+        "product_fraction_HR": 0.118023
+      },
+      "delta": {
+        "code_match_HR": 0.0,
+        "item_unique_HR": 0.0,
+        "product_unique_HR": 0.0,
+        "product_fraction_HR": 0.0
+      },
+      "item_unique_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "item_unique_delta_ci95_by_user": [
+        0.0,
+        0.0
+      ],
+      "code_match_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "code_match_delta_ci95_by_user": [
+        0.0,
+        0.0
+      ],
+      "product_unique_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "product_unique_delta_ci95_by_user": [
+        0.0,
+        0.0
+      ]
+    },
+    "learned": {
+      "label": "sft_full_final",
+      "variant": "learned",
+      "rows": 4533,
+      "topk": 10,
+      "strict_reachable_ceiling": 0.16413,
+      "baseline": {
+        "code_match_HR": 0.121553,
+        "item_unique_HR": 0.07677,
+        "product_unique_HR": 0.118023,
+        "product_fraction_HR": 0.118023
+      },
+      "variant_metrics": {
+        "code_match_HR": 0.100816,
+        "item_unique_HR": 0.092433,
+        "product_unique_HR": 0.09839,
+        "product_fraction_HR": 0.09839
+      },
+      "delta": {
+        "code_match_HR": -0.020737,
+        "item_unique_HR": 0.015663,
+        "product_unique_HR": -0.019633,
+        "product_fraction_HR": -0.019633
+      },
+      "item_unique_delta_ci95": [
+        0.008383,
+        0.023163
+      ],
+      "item_unique_delta_ci95_by_user": [
+        0.006946,
+        0.024038
+      ],
+      "code_match_delta_ci95": [
+        -0.030664,
+        -0.01103
+      ],
+      "code_match_delta_ci95_by_user": [
+        -0.03257,
+        -0.009815
+      ],
+      "product_unique_delta_ci95": [
+        -0.02912,
+        -0.010368
+      ],
+      "product_unique_delta_ci95_by_user": [
+        -0.031617,
+        -0.0083
+      ]
+    },
+    "fused": {
+      "label": "sft_full_final",
+      "variant": "fused",
+      "rows": 4533,
+      "topk": 10,
+      "strict_reachable_ceiling": 0.16413,
+      "baseline": {
+        "code_match_HR": 0.121553,
+        "item_unique_HR": 0.07677,
+        "product_unique_HR": 0.118023,
+        "product_fraction_HR": 0.118023
+      },
+      "variant_metrics": {
+        "code_match_HR": 0.141187,
+        "item_unique_HR": 0.099272,
+        "product_unique_HR": 0.137657,
+        "product_fraction_HR": 0.137657
+      },
+      "delta": {
+        "code_match_HR": 0.019634,
+        "item_unique_HR": 0.022502,
+        "product_unique_HR": 0.019634,
+        "product_fraction_HR": 0.019634
+      },
+      "item_unique_delta_ci95": [
+        0.016987,
+        0.028237
+      ],
+      "item_unique_delta_ci95_by_user": [
+        0.016269,
+        0.028493
+      ],
+      "code_match_delta_ci95": [
+        0.013677,
+        0.025811
+      ],
+      "code_match_delta_ci95_by_user": [
+        0.013114,
+        0.026129
+      ],
+      "product_unique_delta_ci95": [
+        0.013898,
+        0.025811
+      ],
+      "product_unique_delta_ci95_by_user": [
+        0.013129,
+        0.026011
+      ]
+    }
+  }
+}

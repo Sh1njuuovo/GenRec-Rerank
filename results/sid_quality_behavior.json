@@ -1,0 +1,22 @@
+{
+  "label": "behavior",
+  "index": "Industrial_and_Scientific_behavior.index.json",
+  "level": 1,
+  "rows": 36259,
+  "co_prefix_pair_rate": 0.267203,
+  "co_prefix_pairs": 307268,
+  "majority_acc_last_level": 0.255302,
+  "majority_acc_last_full": 0.327146,
+  "heldout_acc_last_level": 0.194291,
+  "nmi_last_level": 0.252702,
+  "target_level_entropy": 4.6068,
+  "target_level_classes": 118,
+  "target_full_classes": 3571,
+  "context_states": 3582,
+  "title_coherence": {
+    "title_jaccard_within_prefix": 0.033107,
+    "title_jaccard_across_prefix": 0.008814,
+    "title_coherence_gain": 0.024293,
+    "pairs_sampled": 100000
+  }
+}

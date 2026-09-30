@@ -1,0 +1,22 @@
+{
+  "label": "prebuilt",
+  "index": "Industrial_and_Scientific.index.json",
+  "level": 1,
+  "rows": 36259,
+  "co_prefix_pair_rate": 0.229194,
+  "co_prefix_pairs": 307268,
+  "majority_acc_last_level": 0.304531,
+  "majority_acc_last_full": 0.391324,
+  "heldout_acc_last_level": 0.267512,
+  "nmi_last_level": 0.182728,
+  "target_level_entropy": 3.6358,
+  "target_level_classes": 48,
+  "target_full_classes": 3620,
+  "context_states": 3569,
+  "title_coherence": {
+    "title_jaccard_within_prefix": 0.05575,
+    "title_jaccard_across_prefix": 0.007143,
+    "title_coherence_gain": 0.048606,
+    "pairs_sampled": 100000
+  }
+}
